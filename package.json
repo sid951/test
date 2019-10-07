@@ -1,0 +1,19 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Node.js Express REST API",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dialogflow": "^0.10.3",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "node-replace": "^0.3.3",
+    "request": "^2.87.0"
+  }
+}

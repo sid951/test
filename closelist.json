@@ -1,0 +1,735 @@
+[
+    {
+        "id": "e68b8247-47e5-4410-af99-0b5751f7e02f",
+        "name": "HomeAutomation.DeviceName",
+        "typeId": 5,
+        "readableType": "Closed List Entity Extractor",
+        "subLists": [
+            {
+                "id": 100478709,
+                "canonicalForm": "lamp 1",
+                "list": [
+                    "lamps 1"
+                ]
+            },
+            {
+                "id": 100478710,
+                "canonicalForm": "living room light",
+                "list": []
+            },
+            {
+                "id": 100478711,
+                "canonicalForm": "kitchen light",
+                "list": []
+            },
+            {
+                "id": 100478712,
+                "canonicalForm": "christmas tree light",
+                "list": []
+            },
+            {
+                "id": 100478713,
+                "canonicalForm": "peppercorn lights",
+                "list": []
+            },
+            {
+                "id": 100478714,
+                "canonicalForm": "ceiling lights",
+                "list": []
+            },
+            {
+                "id": 100478715,
+                "canonicalForm": "living room lamp 1",
+                "list": []
+            },
+            {
+                "id": 100478716,
+                "canonicalForm": "night sleep light",
+                "list": []
+            },
+            {
+                "id": 100478717,
+                "canonicalForm": "fish pond light",
+                "list": []
+            },
+            {
+                "id": 100478718,
+                "canonicalForm": "den light",
+                "list": []
+            },
+            {
+                "id": 100478719,
+                "canonicalForm": "levis light",
+                "list": []
+            },
+            {
+                "id": 100478720,
+                "canonicalForm": "light 31",
+                "list": []
+            },
+            {
+                "id": 100478721,
+                "canonicalForm": "blue lights",
+                "list": []
+            },
+            {
+                "id": 100478722,
+                "canonicalForm": "christmas lights",
+                "list": []
+            },
+            {
+                "id": 100478723,
+                "canonicalForm": "tulip light",
+                "list": [
+                    "tulip lights"
+                ]
+            },
+            {
+                "id": 100478724,
+                "canonicalForm": "evening lights",
+                "list": []
+            },
+            {
+                "id": 100478725,
+                "canonicalForm": "security system",
+                "list": []
+            },
+            {
+                "id": 100478726,
+                "canonicalForm": "penelope's light",
+                "list": []
+            },
+            {
+                "id": 100478727,
+                "canonicalForm": "siena's lamp",
+                "list": []
+            },
+            {
+                "id": 100478728,
+                "canonicalForm": "dining lamp",
+                "list": []
+            },
+            {
+                "id": 100478729,
+                "canonicalForm": "reading living room light",
+                "list": []
+            },
+            {
+                "id": 100478730,
+                "canonicalForm": "sophia's light",
+                "list": []
+            },
+            {
+                "id": 100478731,
+                "canonicalForm": "matthew lights",
+                "list": []
+            },
+            {
+                "id": 100478732,
+                "canonicalForm": "steeple led bulb",
+                "list": []
+            },
+            {
+                "id": 100478733,
+                "canonicalForm": "great light",
+                "list": []
+            },
+            {
+                "id": 100478734,
+                "canonicalForm": "tulips light",
+                "list": []
+            },
+            {
+                "id": 100478735,
+                "canonicalForm": "hue light",
+                "list": []
+            },
+            {
+                "id": 100478736,
+                "canonicalForm": "lcd light",
+                "list": []
+            },
+            {
+                "id": 100478737,
+                "canonicalForm": "pot light 2",
+                "list": []
+            },
+            {
+                "id": 100478738,
+                "canonicalForm": "hue white lamp 3",
+                "list": []
+            },
+            {
+                "id": 100478739,
+                "canonicalForm": "david thermo",
+                "list": []
+            },
+            {
+                "id": 100478740,
+                "canonicalForm": "main light",
+                "list": [
+                    "main lamp"
+                ]
+            },
+            {
+                "id": 100478741,
+                "canonicalForm": "living room lamp 3",
+                "list": []
+            },
+            {
+                "id": 100478742,
+                "canonicalForm": "hue lamp two",
+                "list": []
+            },
+            {
+                "id": 100478743,
+                "canonicalForm": "kuelap light",
+                "list": []
+            },
+            {
+                "id": 100478744,
+                "canonicalForm": "hue white lamp 1",
+                "list": []
+            },
+            {
+                "id": 100478745,
+                "canonicalForm": "hallway lamp three",
+                "list": []
+            },
+            {
+                "id": 100478746,
+                "canonicalForm": "david's light",
+                "list": []
+            },
+            {
+                "id": 100478747,
+                "canonicalForm": "green light",
+                "list": []
+            },
+            {
+                "id": 100478748,
+                "canonicalForm": "red light",
+                "list": []
+            },
+            {
+                "id": 100478749,
+                "canonicalForm": "brake lights",
+                "list": []
+            },
+            {
+                "id": 100478750,
+                "canonicalForm": "dream lights",
+                "list": []
+            },
+            {
+                "id": 100478751,
+                "canonicalForm": "weekend lights",
+                "list": []
+            },
+            {
+                "id": 100478752,
+                "canonicalForm": "lightstrip 3",
+                "list": []
+            },
+            {
+                "id": 100478753,
+                "canonicalForm": "ceiling light",
+                "list": []
+            },
+            {
+                "id": 100478754,
+                "canonicalForm": "bronze lamp",
+                "list": []
+            },
+            {
+                "id": 100478755,
+                "canonicalForm": "thermostat three",
+                "list": []
+            },
+            {
+                "id": 100478756,
+                "canonicalForm": "sink light two",
+                "list": []
+            },
+            {
+                "id": 100478757,
+                "canonicalForm": "favorites lights",
+                "list": []
+            },
+            {
+                "id": 100478758,
+                "canonicalForm": "tv light",
+                "list": []
+            },
+            {
+                "id": 100478759,
+                "canonicalForm": "biube light",
+                "list": []
+            },
+            {
+                "id": 100478760,
+                "canonicalForm": "couch light",
+                "list": []
+            },
+            {
+                "id": 100478761,
+                "canonicalForm": "surface pro three",
+                "list": [
+                    "surface pro four"
+                ]
+            },
+            {
+                "id": 100478762,
+                "canonicalForm": "yellow lights",
+                "list": [
+                    "yellow light",
+                    "yellow lamp",
+                    "yellow lamps"
+                ]
+            },
+            {
+                "id": 100478763,
+                "canonicalForm": "night light",
+                "list": []
+            },
+            {
+                "id": 100478764,
+                "canonicalForm": "dining thermostat",
+                "list": []
+            }
+        ],
+        "customPrebuiltDomainName": "HomeAutomation",
+        "customPrebuiltModelName": "DeviceName",
+        "roles": []
+    },
+    {
+        "id": "26d710b2-ea4b-48b0-a51c-15688ca02209",
+        "name": "HomeAutomation.DeviceType",
+        "typeId": 5,
+        "readableType": "Closed List Entity Extractor",
+        "subLists": [
+            {
+                "id": 100478665,
+                "canonicalForm": "ac",
+                "list": [
+                    "air conditioner",
+                    "a/c",
+                    "a / c",
+                    "air conditioning",
+                    "air condition"
+                ]
+            },
+            {
+                "id": 100478666,
+                "canonicalForm": "coffee maker",
+                "list": [
+                    "coffee pot",
+                    "coffee machine"
+                ]
+            },
+            {
+                "id": 100478667,
+                "canonicalForm": "coffeemaker",
+                "list": []
+            },
+            {
+                "id": 100478668,
+                "canonicalForm": "dish washer",
+                "list": [
+                    "dish washing machine",
+                    "dish-washing machine"
+                ]
+            },
+            {
+                "id": 100478669,
+                "canonicalForm": "dishwasher",
+                "list": []
+            },
+            {
+                "id": 100478670,
+                "canonicalForm": "dog feeder",
+                "list": [
+                    "feeder"
+                ]
+            },
+            {
+                "id": 100478671,
+                "canonicalForm": "dvd player",
+                "list": [
+                    "dvd players"
+                ]
+            },
+            {
+                "id": 100478672,
+                "canonicalForm": "fan",
+                "list": [
+                    "electric fan",
+                    "fans",
+                    "ceiling fan",
+                    "light-fan"
+                ]
+            },
+            {
+                "id": 100478673,
+                "canonicalForm": "floor mopping robot",
+                "list": []
+            },
+            {
+                "id": 100478674,
+                "canonicalForm": "ice maker",
+                "list": []
+            },
+            {
+                "id": 100478675,
+                "canonicalForm": "lamp",
+                "list": [
+                    "lamps"
+                ]
+            },
+            {
+                "id": 100478676,
+                "canonicalForm": "light",
+                "list": [
+                    "lights",
+                    "top light",
+                    "top lights",
+                    "bottom light",
+                    "pendant light",
+                    "overhead light",
+                    "lighting",
+                    "spotlights",
+                    "pendant lights",
+                    "nightlight"
+                ]
+            },
+            {
+                "id": 100478677,
+                "canonicalForm": "outlet",
+                "list": [
+                    "outlets",
+                    "switches"
+                ]
+            },
+            {
+                "id": 100478678,
+                "canonicalForm": "radio",
+                "list": []
+            },
+            {
+                "id": 100478679,
+                "canonicalForm": "refrigerator",
+                "list": []
+            },
+            {
+                "id": 100478680,
+                "canonicalForm": "sensor",
+                "list": []
+            },
+            {
+                "id": 100478681,
+                "canonicalForm": "thermostat",
+                "list": []
+            },
+            {
+                "id": 100478682,
+                "canonicalForm": "tv",
+                "list": [
+                    "television"
+                ]
+            },
+            {
+                "id": 100478683,
+                "canonicalForm": "washing machine",
+                "list": [
+                    "washer"
+                ]
+            },
+            {
+                "id": 100478684,
+                "canonicalForm": "wifi",
+                "list": [
+                    "wifi router",
+                    "router"
+                ]
+            },
+            {
+                "id": 100478685,
+                "canonicalForm": "led bulb",
+                "list": []
+            },
+            {
+                "id": 100478686,
+                "canonicalForm": "oven",
+                "list": [
+                    "toaster"
+                ]
+            },
+            {
+                "id": 100478687,
+                "canonicalForm": "electric water heater",
+                "list": []
+            },
+            {
+                "id": 100478688,
+                "canonicalForm": "microwave oven",
+                "list": []
+            },
+            {
+                "id": 100478689,
+                "canonicalForm": "bread maker",
+                "list": []
+            },
+            {
+                "id": 100478690,
+                "canonicalForm": "speaker",
+                "list": []
+            },
+            {
+                "id": 100478691,
+                "canonicalForm": "fridge",
+                "list": []
+            },
+            {
+                "id": 100478692,
+                "canonicalForm": "humidifier",
+                "list": []
+            },
+            {
+                "id": 100478693,
+                "canonicalForm": "computer",
+                "list": []
+            },
+            {
+                "id": 100478694,
+                "canonicalForm": "vacuum cleaner",
+                "list": []
+            },
+            {
+                "id": 100478695,
+                "canonicalForm": "xbox",
+                "list": []
+            },
+            {
+                "id": 100478696,
+                "canonicalForm": "hair dryer",
+                "list": [
+                    "dryer"
+                ]
+            },
+            {
+                "id": 100478697,
+                "canonicalForm": "telephone",
+                "list": []
+            },
+            {
+                "id": 100478698,
+                "canonicalForm": "remote",
+                "list": []
+            },
+            {
+                "id": 100478699,
+                "canonicalForm": "media",
+                "list": [
+                    "media console",
+                    "movie"
+                ]
+            },
+            {
+                "id": 100478700,
+                "canonicalForm": "camera",
+                "list": []
+            },
+            {
+                "id": 100478701,
+                "canonicalForm": "ipad",
+                "list": [
+                    "ipod"
+                ]
+            },
+            {
+                "id": 100478702,
+                "canonicalForm": "sink",
+                "list": []
+            },
+            {
+                "id": 100478703,
+                "canonicalForm": "stove",
+                "list": []
+            },
+            {
+                "id": 100478704,
+                "canonicalForm": "alarms",
+                "list": [
+                    "alarm"
+                ]
+            },
+            {
+                "id": 100478705,
+                "canonicalForm": "showers",
+                "list": [
+                    "shower"
+                ]
+            },
+            {
+                "id": 100478706,
+                "canonicalForm": "sprinkler",
+                "list": [
+                    "sprinklers"
+                ]
+            },
+            {
+                "id": 100478707,
+                "canonicalForm": "cars",
+                "list": [
+                    "car"
+                ]
+            },
+            {
+                "id": 100478708,
+                "canonicalForm": "heaters",
+                "list": [
+                    "heater"
+                ]
+            }
+        ],
+        "customPrebuiltDomainName": "HomeAutomation",
+        "customPrebuiltModelName": "DeviceType",
+        "roles": []
+    },
+    {
+        "id": "48903634-0888-4a6e-a3e1-65f6f7377887",
+        "name": "HomeAutomation.Quantifier",
+        "typeId": 5,
+        "readableType": "Closed List Entity Extractor",
+        "subLists": [
+            {
+                "id": 100478765,
+                "canonicalForm": "all",
+                "list": []
+            },
+            {
+                "id": 100478766,
+                "canonicalForm": "any",
+                "list": []
+            },
+            {
+                "id": 100478767,
+                "canonicalForm": "every",
+                "list": []
+            },
+            {
+                "id": 100478768,
+                "canonicalForm": "everything",
+                "list": []
+            }
+        ],
+        "customPrebuiltDomainName": "HomeAutomation",
+        "customPrebuiltModelName": "Quantifier",
+        "roles": []
+    },
+    {
+        "id": "3a8cba67-9914-41ad-86a7-9a6fc672a6ce",
+        "name": "HomeAutomation.SettingType",
+        "typeId": 5,
+        "readableType": "Closed List Entity Extractor",
+        "subLists": [
+            {
+                "id": 100478648,
+                "canonicalForm": "backgrounds",
+                "list": []
+            },
+            {
+                "id": 100478649,
+                "canonicalForm": "brightness",
+                "list": []
+            },
+            {
+                "id": 100478650,
+                "canonicalForm": "cold",
+                "list": []
+            },
+            {
+                "id": 100478651,
+                "canonicalForm": "color",
+                "list": []
+            },
+            {
+                "id": 100478652,
+                "canonicalForm": "contrast",
+                "list": []
+            },
+            {
+                "id": 100478653,
+                "canonicalForm": "distance",
+                "list": []
+            },
+            {
+                "id": 100478654,
+                "canonicalForm": "heat",
+                "list": []
+            },
+            {
+                "id": 100478655,
+                "canonicalForm": "hot",
+                "list": []
+            },
+            {
+                "id": 100478656,
+                "canonicalForm": "hue",
+                "list": []
+            },
+            {
+                "id": 100478657,
+                "canonicalForm": "humidity",
+                "list": []
+            },
+            {
+                "id": 100478658,
+                "canonicalForm": "power levels",
+                "list": [
+                    "power level",
+                    "power"
+                ]
+            },
+            {
+                "id": 100478659,
+                "canonicalForm": "saturation",
+                "list": []
+            },
+            {
+                "id": 100478660,
+                "canonicalForm": "speed",
+                "list": []
+            },
+            {
+                "id": 100478661,
+                "canonicalForm": "temperature",
+                "list": [
+                    "temp"
+                ]
+            },
+            {
+                "id": 100478662,
+                "canonicalForm": "time",
+                "list": []
+            },
+            {
+                "id": 100478663,
+                "canonicalForm": "volume level",
+                "list": [
+                    "volume",
+                    "sound",
+                    "sounds"
+                ]
+            },
+            {
+                "id": 100478664,
+                "canonicalForm": "mode",
+                "list": []
+            }
+        ],
+        "customPrebuiltDomainName": "HomeAutomation",
+        "customPrebuiltModelName": "SettingType",
+        "roles": []
+    }
+]
