@@ -44,7 +44,7 @@ const router = app => {
 
     });
     app.post('/GetIntent/:projectId', (request, response) => {
-debugger;
+
         var project = request.params.projectId;
 
         let config = {
@@ -84,7 +84,7 @@ debugger;
 				client_email: request.body.ClientEmail
 			}
         }
-       debugger;
+      
         response.header("Access-Control-Allow-Origin", "*");
         var agentresponse='';
         const dialogflow = require('dialogflow');
