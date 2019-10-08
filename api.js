@@ -1,4 +1,5 @@
 // Require packages
+//https://cloud.google.com/nodejs/docs/reference/dialogflow/0.8.x/v2beta1.EntityTypesClient#createEntityType
 const express = require('express');
 const bodyParser = require('body-parser');
 const routes = require('./routes');
