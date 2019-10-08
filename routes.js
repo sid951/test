@@ -104,7 +104,39 @@ debugger;
 
 
     });
+ app.post('/createIntent/:projectId', (request, response) => {
+        var project = request.params.projectId;
+        let config = {
+			credentials: {
+				private_key:request.body.PrivateKey.replace(/\\n/g,'\n'),
+				client_email: request.body.ClientEmail
+			}
+        }
+        response.header("Access-Control-Allow-Origin", "*");
+        var agentresponse='';
+        const dialogflow = require('dialogflow');
+        const client = new dialogflow.v2.IntentsClient(config);
+        const formattedParent = client.projectAgentPath(project);
+        const intent = {           
+            displayName:"test.intent2",
+            action:"test.intent2"
+        };
+        const requestintent = {
+          parent: formattedParent,
+          intent: intent,
+        };
+        client.createIntent(requestintent)
+        .then(responses => {
+         agentresponse = responses[0];
+          response.status(200).send(agentresponse);
+    })
+        .catch(err => {
+            response.status(500).send(err);
 
+    });
+
+
+});
 
 }
 
