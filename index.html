@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Demo</title>
+  <base href="/">
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="assets/template/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="assets/template/css/style.css" type="text/css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Content Wrapper. Contains page content -->
+  <app-root></app-root>
+  <!-- /.content-wrapper -->
+  <!-- <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.4.0
+    </div>
+    <strong>Copyright &copy; 2014-2016 <a href="assets/https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+    reserved.
+  </footer> -->
+
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="assets/template/js/popper.min.js"></script>
+  <script src="assets/template/js/bootstrap.min.js"></script>
+  <script src="assets/template/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.min.js"></script>
+  <script>
+    $(".modal").each(function (l) { $(this).on("show.bs.modal", function (l) { var o = $(this).attr("data-easein"); "shake" == o ? $(".modal-dialog").velocity("callout." + o) : "pulse" == o ? $(".modal-dialog").velocity("callout." + o) : "tada" == o ? $(".modal-dialog").velocity("callout." + o) : "flash" == o ? $(".modal-dialog").velocity("callout." + o) : "bounce" == o ? $(".modal-dialog").velocity("callout." + o) : "swing" == o ? $(".modal-dialog").velocity("callout." + o) : $(".modal-dialog").velocity("transition." + o) }) });
+
+//     $(function() {
+//   var INDEX = 0;
+//   $("#chat-submit").click(function(e) {
+//     e.preventDefault();
+//     var msg = $("#chat-input").val();
+//     if(msg.trim() == ''){
+//       return false;
+//     }
+//     generate_message(msg, 'self');
+//     var buttons = [
+//         {
+//           name: 'Existing User',
+//           value: 'existing'
+//         },
+//         {
+//           name: 'New User',
+//           value: 'new'
+//         }
+//       ];
+//     setTimeout(function() {
+//       generate_message(msg, 'user');
+//     }, 1000)
+
+//   })
+
+//   function generate_message(msg, type) {
+//     INDEX++;
+//     var str="";
+//     str += "<div id='cm-msg-"+INDEX+"' class=\"chat-msg "+type+"\">";
+//     str += "          <span class=\"msg-avatar\">";
+//     str += "            <img src=\"https:\/\/image.crisp.im\/avatar\/operator\/196af8cc-f6ad-4ef7-afd1-c45d5231387c\/240\/?1483361727745\">";
+//     str += "          <\/span>";
+//     str += "          <div class=\"cm-msg-text\">";
+//     str += msg;
+//     str += "          <\/div>";
+//     str += "        <\/div>";
+//     $(".chat-logs").append(str);
+//     $("#cm-msg-"+INDEX).hide().fadeIn(300);
+//     if(type == 'self'){
+//      $("#chat-input").val('');
+//     }
+//     $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight}, 1000);
+//   }
+
+//   function generate_button_message(msg, buttons){
+//     /* Buttons should be object array
+//       [
+//         {
+//           name: 'Existing User',
+//           value: 'existing'
+//         },
+//         {
+//           name: 'New User',
+//           value: 'new'
+//         }
+//       ]
+//     */
+//     INDEX++;
+//     var btn_obj = buttons.map(function(button) {
+//        return  "              <li class=\"button\"><a href=\"javascript:;\" class=\"btn btn-primary chat-btn\" chat-value=\""+button.value+"\">"+button.name+"<\/a><\/li>";
+//     }).join('');
+//     var str="";
+//     str += "<div id='cm-msg-"+INDEX+"' class=\"chat-msg user\">";
+//     str += "          <span class=\"msg-avatar\">";
+//     str += "            <img src=\"https:\/\/image.crisp.im\/avatar\/operator\/196af8cc-f6ad-4ef7-afd1-c45d5231387c\/240\/?1483361727745\">";
+//     str += "          <\/span>";
+//     str += "          <div class=\"cm-msg-text\">";
+//     str += msg;
+//     str += "          <\/div>";
+//     str += "          <div class=\"cm-msg-button\">";
+//     str += "            <ul>";
+//     str += btn_obj;
+//     str += "            <\/ul>";
+//     str += "          <\/div>";
+//     str += "        <\/div>";
+//     $(".chat-logs").append(str);
+//     $("#cm-msg-"+INDEX).hide().fadeIn(300);
+//     $(".chat-logs").stop().animate({ scrollTop: $(".chat-logs")[0].scrollHeight}, 1000);
+//     $("#chat-input").attr("disabled", true);
+//   }
+
+//   $(document).delegate(".chat-btn", "click", function() {
+//     var value = $(this).attr("chat-value");
+//     var name = $(this).html();
+//     $("#chat-input").attr("disabled", false);
+//     generate_message(name, 'self');
+//   })
+
+//   $("#chat-circle").click(function() {
+//     $("#chat-circle").toggle('scale');
+//     $(".chat-box").toggle('scale');
+//   })
+
+//   $(".chat-box-toggle").click(function() {
+//     $("#chat-circle").toggle('scale');
+//     $(".chat-box").toggle('scale');
+//   })
+
+// })
+//
+  </script>
+
+<script>
+	(function($) {
+    $(document).ready(function() {
+        var $chatbox = $('.chatbox'),
+            $chatboxTitle = $('.chatbox__title'),
+            $chatboxTitleClose = $('.chatbox__title__close'),
+            $chatboxCredentials = $('.chatbox__credentials');
+        $chatboxTitle.on('click', function() {
+            $chatbox.toggleClass('chatbox--tray');
+        });
+
+
+
+    });
+})(jQuery);
+</script>
+</body>
+
+</html>
